@@ -30,7 +30,9 @@ class KeyboardController: NSObject,
     // Exercise 1: Return the correct number of items in a section
     // Tip: There's a helper method you can use located in this class
     // START YOUR CODE HERE
-    return 0
+    return numItems(in: section) //changed this from 0 to make sure that the number of items in each section of your collection view corresponds to the count of items in the respective row of your keyboardRows array. Displays the keyboard with the right number of keys
+      
+
     // END YOUR CODE HERE
   }
 
@@ -41,7 +43,8 @@ class KeyboardController: NSObject,
     cell.configure(with: keyboardRows[indexPath.section][indexPath.row])
     // Exercise 4: Pass in the `didSelectString` closure to the KeyboardCell's corresponding property
     // START YOUR CODE HERE
-    // ...
+      cell.didSelectString = didSelectString
+      //This code assigns the didSelectString closure from KeyboardController to the didSelectString property of each KeyboardCell.
     // END YOUR CODE HERE
     return cell
   }
