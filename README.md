@@ -2,7 +2,7 @@
 
 Submitted by: **Chelsea Bhuiyan**
 
-**Wordle Starter** is an app that ... [TODO] 
+**Wordle Starter** is an app in which the user is given a secret word to guess and a limited number of chances to do so. With each guess, they receive clues that indicate which letters are included in the word and where they're located. They try to use these clues to guess the secret word before running out of attempts.
 
 Time spent: **6** hours spent in total
 
@@ -30,7 +30,7 @@ https://www.loom.com/share/1928c634f5c04b18b45d7e3ce42e06fb?sid=c5671bbf-8fbc-43
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+No challanges the descriptions were clear.
 
 ## License
 
